@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrn_slick_bottom_tabs=self.webpackChunkrn_slick_bottom_tabs||[]).push([[264],{7433:function(t){t.exports=JSON.parse('{"allTagsPath":"/rn-slick-bottom-tabs/blog/tags","slug":"/rn-slick-bottom-tabs/blog/tags/hello","name":"hello","count":2,"permalink":"/rn-slick-bottom-tabs/blog/tags/hello"}')}}]);

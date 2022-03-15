@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrn_slick_bottom_tabs=self.webpackChunkrn_slick_bottom_tabs||[]).push([[640],{8878:function(t){t.exports=JSON.parse('{"allTagsPath":"/rn-slick-bottom-tabs/blog/tags","slug":"/rn-slick-bottom-tabs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/rn-slick-bottom-tabs/blog/tags/facebook"}')}}]);

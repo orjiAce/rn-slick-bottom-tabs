@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrn_slick_bottom_tabs=self.webpackChunkrn_slick_bottom_tabs||[]).push([[554],{9040:function(s){s.exports=JSON.parse('{"allTagsPath":"/rn-slick-bottom-tabs/blog/tags","slug":"/rn-slick-bottom-tabs/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/rn-slick-bottom-tabs/blog/tags/docusaurus"}')}}]);
