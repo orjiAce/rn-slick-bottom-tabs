@@ -2,9 +2,13 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# React Native Slick Bottom Tabs
 
-Let's discover **Docusaurus in less than 5 minutes**.
+![GitHub package.json version](https://img.shields.io/github/package-json/v/orjiace/rn-slick-bottom-tabs?color=blue&style=for-the-badge)
+![NPM](https://img.shields.io/npm/l/express?color=red&style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/rn-slick-bottom-tabs?color=hunter%20green&style=for-the-badge)
+
+ **A fully customizable react native Bottom navigation tabs naviagtion 🚀**.
 
 ## Getting Started
 
@@ -17,27 +21,40 @@ Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new
 - [Node.js](https://nodejs.org/en/download/) version 14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
+## Features
 
-The classic template will automatically be added to your project after you run the command:
+- Light/dark support
+- Fast
+- Written Typescript
+- Runs on Expo
+- Smooth gesture interactions & snapping animations
+- Accessibility support.
+
+
+
+## Installation
+
 
 ```bash
-npm init docusaurus@latest my-website classic
+npm i rn-slick-bottom-tabs
 ```
-
+```bash
+yarn add rn-slick-bottom-tabs
+```
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## Depencies
 
-Run the development server:
+This library needs these dependencies to be installed in your project before you can use it:
 
 ```bash
-cd my-website
-npm run start
+npm i react-native-safe-area-context @react-navigation/native-stack @react-navigation/native react-native-screens
+```
+
+```bash
+yarn add react-native-safe-area-context @react-navigation/native-stack @react-navigation/native react-native-screens
 ```
 
 The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
