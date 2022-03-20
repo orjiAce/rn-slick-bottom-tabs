@@ -52,9 +52,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://orji.dev', label: 'Author', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/orjiace/rn-slick-bottom-tabs',
             label: 'GitHub',
             position: 'right',
           },

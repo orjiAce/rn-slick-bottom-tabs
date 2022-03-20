@@ -8,13 +8,14 @@ sidebar_position: 1
 ![NPM](https://img.shields.io/npm/l/express?color=red&style=for-the-badge)
 ![npm](https://img.shields.io/npm/dw/rn-slick-bottom-tabs?color=hunter%20green&style=for-the-badge)
 
- **A fully customizable react native Bottom navigation tabs naviagtion 🚀**.
+ **A fully customizable react native Animated Bottom navigation tabs 🚀**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+<img src="https://github.com/orjiAce/rn-slick-bottom-tabs/blob/master/ezgif.com-gif-maker.gif?raw=true" width="300"/>
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+
+
 
 ### What you'll need
 
@@ -31,6 +32,45 @@ Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new
 - Smooth gesture interactions & snapping animations
 - Accessibility support.
 
+## Variants
+
+- `AceTabBarNavigator`
+- `JanmTabBarNavigator`
+- `SlickTabBarNavigator`
+- `BerlinTabBarNavigator`
+
+## Some props you need to be aware of
+- **Props may vary according to the navigation variant you choose to use for your app**
+
+The navigation component takes two main props which help you customize your navigation. `tabBarOptions` is the default prop from React Navigation which you can use to specify different tint colors and more (see available options below). for all the details. The second prop is `appearance`. Here you'll be able to adjust several properties of the tab bar as you wish. See the available properties above.
+
+- **tabBarOptions**
+
+  - ✅`activeTintColor` - Label and icon color of the active tab item.
+  - ✅`inactiveTintColor` - Label and icon color of the inactive tab item.
+  - ✅`activeBackgroundColor` - Background color of the active tab item.
+  - ✅`tabStyle` - Style object for the tab wrapper (**Note!** it overrides the properties in `appearance` prop (see below).
+  - ✅`labelStyle` - Style object for the tab label text, inherits all props from react native Text.
+  - ✅`activeTabColor` - String (Color).
+
+- **appearance**
+
+  - ✅`topPadding` (default: 20) - Space between the tab button and the wrapper (top)
+  - ✅`horizontalPadding` (default: 20) - Vertical space between for the tab buttons
+  - ✅`tabBarBackground` (default: "white") - Background color for the wrapper that contains the navigation tabs
+  - ✅`shadow` (default: false) - If set to true, the wrapper has a light shadow
+
+  - ✅`activeTabBackgrounds` - Array of hex colours for the background of each tab when active. (if not specified, falls back to the `activeBackgroundColor` from `tabBarOptions`)
+  - ✅`activeColors` - Array of hex colours for the tint of each tab when active. (if not specified, falls back to the `activeTintColor` from `tabBarOptions`)
+
+  - ✅`whenActiveShow` (default: "both") Configure the appearance of the active tab. Available values `both`, `label-only`, `icon-only`.
+  - ✅`whenInactiveShow` (default: "icon-only") Configure the appearance of the inactive tabs. Available values `both`, `label-only`, `icon-only`.
+  - ✅`tabButtonLayout` (default: "horizontal") Configure the layout of the tab button. Available values `vertical`, `horizontal`.
+
+  - ✅`dotCornerRadius` (default: 100) Corner radius for the active background / dot.
+  - ✅`dotSize` (default: "medium") Size of dot for the active tab. Available values `small`, `medium`, `large`.
+
+
 
 
 ## Installation
@@ -45,7 +85,7 @@ yarn add rn-slick-bottom-tabs
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
 
-## Depencies
+## Dependencies
 
 This library needs these dependencies to be installed in your project before you can use it:
 
@@ -57,8 +97,9 @@ npm i react-native-safe-area-context @react-navigation/native-stack @react-navig
 yarn add react-native-safe-area-context @react-navigation/native-stack @react-navigation/native react-native-screens
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Sponsor and support 🙂
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+To keep this library maintained and up-to-date you can [Buy me a coffee](https://www.buymeacoffee.com/orjiace)
+
+
