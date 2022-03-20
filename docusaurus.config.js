@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'React native slick bottom tabs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Fast and Easy to use',
   url: 'https://orjiace.github.io/',
   baseUrl: '/rn-slick-bottom-tabs/',
   onBrokenLinks: 'throw',
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/orjiace/rn-slick-bottom-tabs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/orjiace',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

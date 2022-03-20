@@ -97,7 +97,15 @@ npm i react-native-safe-area-context @react-navigation/native-stack @react-navig
 yarn add react-native-safe-area-context @react-navigation/native-stack @react-navigation/native react-native-screens
 ```
 
-## Sponsor and support 🙂
+:::tip Shout out!
+
+Special shout out to [janm_uiux](https://twitter.com/janm_uiux)
+and [torgeadelin](https://github.com/torgeadelin)
+for their contribution and inspiration
+
+:::
+
+## Sponsor and support ❤️
 
 
 To keep this library maintained and up-to-date you can [Buy me a coffee](https://www.buymeacoffee.com/orjiace)

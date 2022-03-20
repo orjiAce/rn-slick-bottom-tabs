@@ -1,18 +1,21 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
+
+# AceTabBarNavigator
+
+<img src="https://github.com/orjiAce/rn-slick-bottom-tabs/blob/master/ezgif.com-gif-maker%20(3).gif?raw=true" width="300"/>
+
+
 
 # Usage
 
- **Below is a simple usage or example** of one of the react slick bottom tab variants `JanmTabBarNavigator`
-
- <img src="https://github.com/orjiAce/rn-slick-bottom-tabs/blob/master/ezgif.com-gif-maker.gif?raw=true" width="300"/>
-
+ **Below is a simple usage or example** of one of the react slick bottom tab variants `AceTabBarNavigator`
 
 ```tsx title="/BottomTab.tsx"
 import React from 'react'
 import {
-    JanmTabBarNavigator,
+    AceTabBarNavigator,
     DotSize
 } from '../components'
 import {Ionicons as Icon} from '@expo/vector-icons'
@@ -21,7 +24,7 @@ import TabTwo from "../screen/TabTwo";
 import TabThree from "../screen/TabThree";
 import FourthScreen from "../screen/FourthScreen";
 
-const Tabs = JanmTabBarNavigator()
+const Tabs = AceTabBarNavigator()
 
 const TabBarIcon = (props: any) => {
     return (
@@ -40,13 +43,12 @@ export default () => (
     }}
                     initialRouteName="TabOne"
                     tabBarOptions={{
-                        activeTintColor: "#7A28CB",
-                        inactiveTintColor: "#9e9e9e",
-                        activeBackgroundColor: "#e5cfff",
+                    labelStyle: {fontSize: 12, marginTop: 5, fontWeight: 'bold'},
+                    activeTintColor: "#7A28CB",
+                    inactiveTintColor: "#9e9e9e",
+                    activeBackgroundColor: "#e5cfff",
                     }}
-                    appearance={{
-                        dotSize: DotSize.MEDIUM,
-                    }}
+
     >
         <Tabs.Screen
             name="TabOne"
@@ -112,4 +114,5 @@ export default () => (
 
 
 ```
+
 
